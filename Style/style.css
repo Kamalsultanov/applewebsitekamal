@@ -1,0 +1,777 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+#testingg{
+  display: block;
+}
+#secretnav {
+  display: none;
+}
+#icons img,
+i {
+  padding: 0 13px;
+}
+#logo {
+  width: 20px;
+  height: 20px;
+}
+footer hr {
+  width: 90%;
+  border: solid silver 0.5px;
+  margin: 20px;
+}
+#logo img {
+  width: 100%;
+  height: 100%;
+  margin: 0 10px;
+}
+#logopart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+#logoicon {
+  width: 15px;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 425px;
+  background-color: #f2f2f2;
+  position: fixed;
+  top: -120%;
+  right: 0;
+  transition: 0.5s;
+  height: 100vh;
+}
+.closed {
+  height: 50px;
+  font-size: 30px;
+  text-align: right;
+  padding: 10px;
+  i {
+    cursor: pointer;
+  }
+}
+#bars {
+  cursor: pointer;
+  display: none;
+}
+
+#bars:checked ~ .sidebar {
+  top: 0 !important;
+}
+#inp:checked ~ #menu {
+  height: 100px;
+  visibility: initial;
+  overflow: auto;
+}
+#menu {
+  padding: 0 20%;
+}
+#menu li {
+  padding: 10px 0;
+}
+#menu li a {
+  font-size: 1.3em;
+}
+
+#slider {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  justify-content: start;
+}
+.sliderelement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.sliderelement div {
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+}
+.sliderelement div img {
+  width: 100%;
+  height: 100%;
+}
+.sliderelement h5 {
+  font-size: 0.8em;
+}
+#shophd {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 15px 20px;
+}
+
+#shophd p {
+  font-size: 0.9em;
+  color: #6f6f6f;
+}
+#shophd a {
+  font-size: 1em;
+  color: #0d6efd;
+  padding-top: 30px;
+}
+/* - - - - - - - - - - - - - - -  MAIN PART - - - - - - - - - - - -  */
+
+.titaniumdiv {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.titaniumdiv h5 {
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+.titaniumdiv h3 {
+  font-size: 1.5em;
+}
+.titaniumdiv img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+#imagetext1 {
+  height: 50px;
+  margin-top: 25px;
+}
+.titaniumdiv p {
+  padding: 30px 80px;
+  font-size: 1em;
+}
+#imageh {
+  height: 50vh;
+}
+.titaniumdiv h1 {
+  font-size: 3em;
+}
+
+/* - - - - - - - - Main 2 - -------*/
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.textpart {
+  align-content: center;
+}
+.card h1 {
+  font-size: 2.4em;
+}
+.card h3 {
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+.card p {
+  padding: 10px 0;
+}
+.imagebox {
+  height: 100vh;
+}
+.imagebox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/*  - - - - - - - - - - - - - - - - -Main 3 - - - - - - - - -  */
+#imageinside {
+  width: 100%;
+}
+#imageinside img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#secretpart {
+  display: none;
+}
+
+/* - - - - - - - - - - - - - - - - - - - MAIN 4 - - - - - - - - - - */
+#compareinfo {
+  text-align: center;
+}
+#compareinfo section {
+  width: 100%;
+  display: flex;
+}
+#compareinfo img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+#compareinfo h1 {
+  margin-bottom: 50px;
+  padding-top: 25px;
+  font-weight: 600;
+}
+.infocard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infoimgbox {
+  min-width: 30%;
+}
+.colorbox {
+  height: 20px;
+}
+.iconbox {
+  height: 40px;
+  width: 40px;
+  margin: 15px 0 5px 0;
+}
+.infocard p {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.infocard hr {
+  width: 70%;
+  border: 1px solid silver;
+}
+.infocard h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+.infocard h4 {
+  margin: 15px 0 5px 0;
+}
+/* ----------------------------- MAIN 5 ----------------------- */
+#saveiphone {
+  text-align: center;
+  padding: 25px;
+}
+#saveiphone h1 {
+  font-size: 2em;
+  padding: 20px;
+}
+.shortcard {
+  background-color: white;
+  margin: 20px auto;
+}
+.shortcard .textpart {
+  padding: 30px;
+  font-size: 1.5em;
+}
+.shortcard h5 {
+  font-size: 1em;
+}
+.shortcard a {
+  padding: 20px 0;
+  font-size: 0.6em;
+}
+.imgbox {
+  height: 25vh;
+  margin: 0 20px;
+}
+.imgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.shortcard p {
+  color: #6e6e73;
+  font-size: 0.6em;
+  padding: 10px;
+}
+/* - - - - - - - - - - - - - MAIN 6 - - - - - - - - - */
+#why {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  padding: 0 50px;
+}
+
+#whydiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+#why p {
+  padding: 10px;
+}
+/* - - - - - - - - - - - - - -  MAIN 7 - - - - - - - - -- -  */
+#facces {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+#facces .card {
+  background-color: white;
+  margin: 10px;
+}
+#facces a {
+  display: inline;
+}
+#facces .imgbox {
+  margin: 20px 0;
+}
+/*  - - - - - - - - - - - - -  MAIN8 - - - - - - - - -*/
+.tinycard {
+  padding: 40px;
+}
+/*  - - - - - - - - - - - - -  MAIN9 - - - - - - - - -*/
+#whatiphone {
+  text-align: center;
+  align-content: start;
+}
+
+#whatiphone .card {
+  margin: 20px;
+  display: flex;
+  justify-content: start;
+  margin-top: 50px;
+}
+
+#priya {
+  background: url(../img/applebg7.jpeg) 100% -10px / cover no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+#whatiphone h3 {
+  font-size: 44px;
+}
+#whatiphone p {
+  font-size: 18px;
+}
+#whatiphone .card {
+  height: 80vh;
+}
+#switchingiphone {
+  background: white url(../img/switchingbg.jpeg) bottom/100% no-repeat;
+  margin: 20px;
+}
+#selfiecard {
+  background: white url(../img/privacy.jpg) bottom/140% no-repeat;
+}
+/* - - - - - - - - - - - - -  MAIN 10 - - - - - - - - - */
+#getmore {
+  text-align: center;
+}
+#linkbox .textlink{padding:0 5px; }
+#getmore .textimg {
+  width: 70%;
+}
+#getmore .card {
+  height: 80vh;
+  margin: 20px;
+}
+#getmore .textpart p {
+  font-size: 22.4px;
+}
+
+#getmore a {
+  display: inline;
+}
+.appletv {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+#appletv2 {
+  background: url(../img/tv.png) bottom / cover no-repeat;
+  height: 70%;
+  width: 100%;
+}
+#applemusic {
+  background: url(../img/tedlasso.jpg) center / cover no-repeat;
+  height: 70%;
+  width: 100%;
+}
+#applefitness {
+  background: url(../img/fitness.jpg) 50% -100px / cover no-repeat;
+  height: 70%;
+  width: 100%;
+}
+#applearcade {
+  background: url(../img/arcade.png) 60% 70px / contain no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#applenews {
+  background: url(../img/news.jpg) 50% -100px / cover no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#applegift {
+  background: url(../img/giftcard.jpg) center / cover no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.appletv img {
+  width: 20%;
+}
+
+/* - - - - - - - - - - - - - - - MAIN 11 -- - - - - - - - -*/
+#credits div {
+  margin: 20px 20px;
+  padding: 20px 50px;
+  color: #0000007a;
+}
+
+/* - - - - - - - - -FOOTER - - - - - - - - -  */
+
+input {
+  display: none;
+}
+footer label {
+  display: block;
+  padding: 8px 22px;
+  margin: 0 0 1px 0;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: ease 0.5s;
+  position: relative;
+  color: #000000bd;
+}
+
+footer label::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  font-weight: bold;
+  font-size: 22px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+
+footer input:checked + footer label::after {
+  content: "\f077";
+}
+
+footer .content {
+  font-weight: 300;
+  padding: 10px 25px;
+  margin: 0 0 1px 0;
+  border-bottom: 1px solid #000000bd;
+}
+footer .content li {
+  font-weight: 300;
+  color: #000000bd;
+  padding: 5px;
+}
+footer input + label + .content {
+  display: none;
+}
+input:checked + label + .content {
+  display: block;
+}
+#logotext {
+  font-weight: 300;
+  padding: 10px;
+}
+footer p {
+  padding: 10px;
+  font-weight: 300;
+  color: #000000bd;
+  font-size: 0.9em;
+}
+footer p a {
+  text-decoration: underline;
+  color: #0d6efd;
+}
+/* - - - - - - - - - - - - - - - CLASSES - - - - - - - - - - - - */
+.bgblack {
+  background-color: black;
+}
+.bgwhite {
+  background-color: #f2f2f2;
+}
+.bgrealwhite {
+  background-color: white;
+}
+.bg3white {
+  background-color: #f9f9f9;
+}
+
+.txtclrwhite {
+  color: #f5f5f7;
+}
+.txttitanium {
+  color: #8b887e;
+}
+.txtblue {
+  color: #1e3791;
+}
+.paddedtop {
+  padding-top: 20px;
+}
+#image1 {
+  padding-top: 15px;
+}
+#image2 {
+  padding-top: 15px;
+}
+#image3 {
+  padding-top: 15px;
+}
+#image4 {
+  padding-top: 15px;
+}
+.paddedbot {
+  padding-bottom: 20px;
+}
+.margtop {
+  margin-top: 20px;
+}
+.margbot {
+  margin-bottom: 20px;
+}
+.textlink {
+  font-size: 1.1em;
+  color: #2997ff;
+  padding: 20px;
+  display: block;
+  cursor: pointer;
+}
+.buttonblue {
+  font-size: 1.1em;
+  background-color: #0071e3;
+  width: 60px;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+.txtred {
+  color: #bf4800;
+  font-weight: 300;
+}
+
+/*---------------- WEB- ---------------------- */
+
+@media only screen and (min-width: 768px) {
+  #testingg {
+    display: none;
+  }
+
+  #secretnav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    color: #212529;
+  }
+  #secretmenu {
+    display: flex;
+  }
+  #secretmenu li {
+    padding: 0 10px;
+  }
+  #secretmenu li a {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  #slider {
+    justify-content: center;
+  }
+  #shophd p {
+    font: 300 1.4em/1.5em Arial, Helvetica;
+    color: #1d1d1f;
+  }
+  #shophd a {
+    font: 500 1.3em Arial, Helvetica;
+  }
+  #imageh {
+    transform: rotate(270deg);
+    width: 50vh;
+  }
+  .card {
+    flex-direction: row;
+    justify-content: center;
+  }
+  #facces p {
+    font-size: 1.2em;
+  }
+  #imageinside {
+    background: url(../img/blackmanholdingphone.jpeg) center;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+    margin: 0 10px;
+  }
+  #secretpart {
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: white;
+  }
+
+  #secretpart a {
+    font-size: 1em;
+    padding: 10px 10px;
+    background: white;
+    display: inline;
+    border-radius: 20px;
+    color: black;
+  }
+
+  #secretpart a i {
+    display: none;
+  }
+  .fourpart {
+    display: flex;
+  }
+  #fouvariatons {
+    display: flex;
+  }
+
+  #facces .imgbox {
+    height: 60vh;
+  }
+  #facces .card {
+    margin: 20px;
+  }
+  #facces {
+    padding: 0 30px;
+  }
+  #facces h3 {
+    font-size: 45px;
+  }
+  #services h3{
+    font-size: 20px;
+  }
+  #services p { font-size: 1em;}
+  #services {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  #whatiphone {
+    padding: 0 60px;
+  }
+  #whatiphone .card {
+    margin: 50px 20px;
+  }
+  #priya {
+    background-position: 50px -240px;
+  }
+  .textpart {
+    padding: 20px 15%;
+  }
+  .bgcard {
+    background-position: 20% 20%;
+  }
+
+  #switchingiphone {
+    background-position: bottom;
+    background-size: 80%;
+  }
+  #selfiecard {
+    background-size: 170%;
+  }
+  #getmore .imgbox {
+    height: 50vh;
+    margin: 60px auto;
+  }
+  #credits div {
+    padding: 20px 20%;
+  }
+  footer input {
+    display: none;
+  }
+  footer .contentbox {
+    display: block;
+    min-width: 10%;
+  }
+
+  footer .contentbox .content {
+    display: block !important;
+    border: none;
+  }
+  footer label {
+    font-size: 1em;
+    color: #212529;
+  }
+  footer li {
+    font-size: 11.2px;
+  }
+  #footertext {
+    display: flex;
+  }
+  footer .contentbox input {
+    display: none;
+  }
+  footer .contentbox label::after {
+    content: none;
+  }
+  .parentbox {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  #granpabox {
+    display: flex;
+    justify-content: center;
+  }
+  footer {
+    padding: 20px 20px;
+  }
+  #logotext,
+  #specp,
+  #footertext,
+  footer hr {
+    margin: 20px 24%;
+  }
+  footer hr {
+    width: 50%;
+    border: solid silver 0.5px;
+  }
+
+  #appletv2 {
+    background-position: bottom;
+  }
+  #tvmusic {
+    margin: 50px 70px;
+  }
+  #fitnesarcade {
+    margin: 50px 70px;
+  }
+  #newsandgift {
+    margin: 50px 70px;
+  }
+
+  .threepart {
+    display: flex;
+  }
+  .shortcard {
+    margin: 10px;
+  }
+  .shortcard h5 {
+    margin-bottom: 40px;
+  }
+  .column {
+    flex-direction: column;
+  }
+  .row {
+    display: flex;
+  }
+  .reversed {
+    flex-direction: row-reverse;
+  }
+  .w50 {
+    width: 50%;
+  }
+  .w33 {
+    width: 33.3%;
+  }
+  .hiding {
+    display: none;
+  }
+}
